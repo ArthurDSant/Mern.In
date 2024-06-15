@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  width: 100%;
+  font-family: "Rubik", sans-serif;
+}
+
+.interactive {
+  cursor: pointer
+}
+
+.interactive:hover {
+  cursor: pointer;
+  color: #43a4d1;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 0;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.tests {
+  color: #0e76a8;
+  background-color: #43a4d1;
+}
